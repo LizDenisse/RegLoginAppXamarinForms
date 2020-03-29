@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="RegLoginApp.Views.HomePage">
+    <ContentPage.Content>
+
+
+<Grid VerticalOptions="CenterAndExpand">
+                     <Grid.RowDefinitions>
+                         <RowDefinition/>
+                         <RowDefinition/>
+                         <RowDefinition/>
+                         <RowDefinition/>
+                     </Grid.RowDefinitions>
+
+                   <Label x:Name="MyLabel" Text="name"/>
+                     
+                     <Button Text="Logout" Grid.Row="2" BackgroundColor="Pink" TextColor="Black" Clicked="Logout"/>
+                    
+
+                </Grid>
+
+
+        
+
+    </ContentPage.Content>
+</ContentPage>

@@ -18,7 +18,7 @@ namespace RegLoginApp.Views
             InitializeComponent();
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
+        void Register(System.Object sender, System.EventArgs e)
         {
 
             var dbpath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "UserDatabase.db");
@@ -38,6 +38,9 @@ namespace RegLoginApp.Views
             Device.BeginInvokeOnMainThread(async () =>
             {
                 var result = await this.DisplayAlert("Congratulations", "User Registration Succesfull", "yes", "cancel");
+
+                if (result)
+                    await Navigation.PushAsync(new LoginPage()); 
             });
 
         }

@@ -29,7 +29,7 @@
                     </StackLayout>
 
                     <StackLayout Grid.Row="4">
-                        <Button Text="Register" HorizontalOptions="CenterAndExpand" WidthRequest="100" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked"
+                        <Button Text="Register" HorizontalOptions="CenterAndExpand" WidthRequest="100" TextColor="White" BackgroundColor="Blue" Clicked="Register"
                                 ></Button>
                     </StackLayout>
                 </Grid>

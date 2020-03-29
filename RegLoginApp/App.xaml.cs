@@ -11,7 +11,7 @@ namespace RegLoginApp
         {
             InitializeComponent();
 
-            MainPage = new RegistrationPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
